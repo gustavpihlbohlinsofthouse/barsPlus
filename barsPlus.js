@@ -54,8 +54,8 @@ function ($, initprops, props, template) {
 			if (self.$scope.g.editMode) {
 				self.$scope.initProps();
 				self.$scope.g.initData();
-				self.$scope.g.refreshChart();
 			}
+			self.$scope.g.refreshChart();
 		}
 	};
 });
